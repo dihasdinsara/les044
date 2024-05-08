@@ -2,7 +2,7 @@ import React from 'react'
 
 async function getProducts() {
   try {
-    const res = await fetch("http://localhost:3000/api/products", {
+    const res = await fetch("https://les044.vercel.app/api/products", {
       cache: "no-store",
     });
 
